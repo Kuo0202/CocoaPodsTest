@@ -17,15 +17,15 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PodsTest"
   spec.version      = "1.0.0"
-  spec.summary      = "Just Pods Test"
-  spec.swift_version = "5" 
+  spec.summary      = "Pods Test"
+  spec.swift_version = "5.0" 
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Test"
+  spec.description  = "Just Pods Test For CocoaPods"
 
   spec.homepage     = "https://github.com/Kuo0202/CocoaPodsTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "UIKit", "AVKit", "AVFoundation"
+  spec.frameworks = "UIKit", "AVKit", "AVFoundation", "PallyConFPSSDK"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -132,7 +132,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "PallyConFPSSDK"
    spec.dependency "CryptoSwift"
 
 end
