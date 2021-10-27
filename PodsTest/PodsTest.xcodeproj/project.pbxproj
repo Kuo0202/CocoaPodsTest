@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2DF690027280FA200CA6F84 /* PodsTest.docc in Sources */ = {isa = PBXBuildFile; fileRef = C2DF68FF27280FA200CA6F84 /* PodsTest.docc */; };
 		C2DF690127280FA200CA6F84 /* PodsTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DF68FE27280FA200CA6F84 /* PodsTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2DF690927280FB500CA6F84 /* PallyConUtil in Resources */ = {isa = PBXBuildFile; fileRef = C2DF690727280FB500CA6F84 /* PallyConUtil */; };
 		C2DF690A27280FB500CA6F84 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = C2DF690827280FB500CA6F84 /* Views */; };
@@ -194,7 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DF690027280FA200CA6F84 /* PodsTest.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
