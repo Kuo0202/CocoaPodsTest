@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -118,7 +118,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "UIKit", "AVKit", "AVFoundation", "PallyConFPSSDK", "CryptoSwift"
+  spec.frameworks = "UIKit", "AVKit", "AVFoundation"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -133,6 +133,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+   spec.dependency "PallyConFPSSDK"
+   spec.dependency "CryptoSwift"
 
 end
