@@ -107,10 +107,6 @@ Pod::Spec.new do |spec|
    # spec.resource  = "**/PallyConSite.plist"
   # spec.resources = "Resources/*.png"
 
-  spec.resource_bundles = {
-      'PodsTest' => ['**/*.{png,plist}']
-  }
-
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
