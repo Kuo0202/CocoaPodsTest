@@ -7,9 +7,8 @@
 
 import Foundation
 
-struct PallyConSite: Codable {
+struct PallyConSite {
     var siteId: String
     var siteKey: String
     var accessKey: String
-    
 }
