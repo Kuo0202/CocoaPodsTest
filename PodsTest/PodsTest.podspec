@@ -121,7 +121,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = "PallyConFPSSDK.xcframework"
 
-  #spec.library   = "PallyConFPSSDK"
+  #spec.library   = "Frameworks/PallyConFPSSDK"
   # spec.libraries = "iconv", "xml2"
   spec.static_framework = true
 
