@@ -17,7 +17,6 @@
 		52BF4A2858FC1112872CE6C8 /* Pods_PodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D186A1B93DCAA06281DACFE /* Pods-PodsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsTest.release.xcconfig"; path = "Target Support Files/Pods-PodsTest/Pods-PodsTest.release.xcconfig"; sourceTree = "<group>"; };
 		C2DF68FB27280FA200CA6F84 /* PodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2DF68FE27280FA200CA6F84 /* PodsTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsTest.h; sourceTree = "<group>"; };
 		C2DF68FF27280FA200CA6F84 /* PodsTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PodsTest.docc; sourceTree = "<group>"; };
 		C2DF690727280FB500CA6F84 /* PallyConUtil */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PallyConUtil; sourceTree = "<group>"; };
 		C2DF690827280FB500CA6F84 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
@@ -77,7 +76,6 @@
 		C2DF68FD27280FA200CA6F84 /* PodsTest */ = {
 			isa = PBXGroup;
 			children = (
-				C2DF68FE27280FA200CA6F84 /* PodsTest.h */,
 				C2DF690727280FB500CA6F84 /* PallyConUtil */,
 				C2DF690827280FB500CA6F84 /* Views */,
 				C2DF68FF27280FA200CA6F84 /* PodsTest.docc */,
