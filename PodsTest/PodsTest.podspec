@@ -123,6 +123,7 @@ Pod::Spec.new do |spec|
 
   #spec.library   = "PallyConFPSSDK"
   # spec.libraries = "iconv", "xml2"
+  spec.static_framework = true
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
