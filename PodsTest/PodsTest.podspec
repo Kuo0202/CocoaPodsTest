@@ -104,7 +104,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-   # spec.resource  = "**/PallyConSite.plist"
+   spec.resource  = "**/*.plist"
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
