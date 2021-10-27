@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "PodsTest/**/*", "PodsTest/**/*.{h,m,swift}"
-  spec.exclude_files = "PodsTest/**/*.plist"
+  #spec.exclude_files = "PodsTest/**/*.plist"
 
   # spec.public_header_files = "Classes/**/*.h"
 
