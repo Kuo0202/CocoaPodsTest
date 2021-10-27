@@ -11,7 +11,7 @@ import PallyConFPSSDK
 
 public class DrmPlayerView: UIView {
     
-    var player: AVPlayer? {
+    var player: AVPlayer? {                                                                                                                                                         
         get {
             return playerLayer.player
         }

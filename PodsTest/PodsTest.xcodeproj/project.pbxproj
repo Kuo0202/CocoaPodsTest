@@ -44,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				52BF4A2858FC1112872CE6C8 /* Pods_PodsTest.framework */,
+				C2DF690C2729060B00CA6F84 /* PallyConFPSSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -60,7 +61,6 @@
 		C2DF68F127280FA200CA6F84 = {
 			isa = PBXGroup;
 			children = (
-				C2DF690C2729060B00CA6F84 /* PallyConFPSSDK.xcframework */,
 				C2DF68FD27280FA200CA6F84 /* PodsTest */,
 				C2DF68FC27280FA200CA6F84 /* Products */,
 				800BE8E13F3CCBFD249E0E20 /* Pods */,
