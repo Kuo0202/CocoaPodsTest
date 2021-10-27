@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PodsTest", "PodsTest/**/*.{h,m,swift}"
+  spec.source_files  = "PodsTest/**/*", "PodsTest/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -119,7 +119,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   spec.frameworks = "UIKit", "AVKit", "AVFoundation"
 
-  spec.vendored_framework = "PallyConFPSSDK.xcframework"
+  spec.vendored_frameworks = "PallyConFPSSDK.xcframework"
 
   #spec.library   = "Frameworks/PallyConFPSSDK"
   # spec.libraries = "iconv", "xml2"
