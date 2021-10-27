@@ -109,7 +109,7 @@ Pod::Spec.new do |spec|
 
   s.resource_bundles = {
       'PodsTest' => ['PodsTest/**/*.{png,plist}']
-}
+  }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
