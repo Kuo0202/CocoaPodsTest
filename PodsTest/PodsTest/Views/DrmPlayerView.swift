@@ -11,7 +11,7 @@ import PallyConFPSSDK
 
 public class DrmPlayerView: UIView {
     
-    var player: AVPlayer? {                                                                                                                                                         
+    var player: AVPlayer? {
         get {
             return playerLayer.player
         }
@@ -30,18 +30,7 @@ public class DrmPlayerView: UIView {
         return AVPlayerLayer.self
     }
     
-    private var site: PallyConSite = {
-        
-        let path = Bundle.main.url(forResource: "PallyConSite", withExtension: "plist")
-        
-        let data = try! Data.init(contentsOf: path!)
-        
-        let site = try! PropertyListDecoder().decode(PallyConSite.self, from: data)
-        
-        return PallyConSite(siteId: site.siteId, siteKey: site.siteKey, accessKey: site.accessKey)
-    }()
-    
-//    private(set) var site: PallyConSite!
+    private(set) var site: PallyConSite!
     
     var license = PallyConLicense(drmType: .fairPlay, userId: "", contentId: "")
     
@@ -68,10 +57,10 @@ public class DrmPlayerView: UIView {
 
 extension DrmPlayerView {
     
-//    public func setupConfig(siteId: String, siteKey: String, accessKey: String) {
-//            
-//            site = PallyConSite(siteId: siteId, siteKey: siteKey, accessKey: accessKey)
-//        }
+    public func setupConfig(siteId: String, siteKey: String, accessKey: String) {
+        
+        site = PallyConSite(siteId: siteId, siteKey: siteKey, accessKey: accessKey)
+    }
     
     public func setupPlayer(urlString: String) {
         
@@ -80,7 +69,7 @@ extension DrmPlayerView {
         }
         
         let urlAsset = AVURLAsset(url: contentUrl)
-
+        
         //
         let tokenBase64 = try! PallyConUtil.generateTokenString(configuation: configration)
         
