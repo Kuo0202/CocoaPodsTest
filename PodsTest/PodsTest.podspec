@@ -119,7 +119,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   spec.frameworks = "UIKit", "AVKit", "AVFoundation"
 
-  spec.vendored_framework = "FPallyConFPSSDK.xcframework"
+  spec.vendored_framework = "PallyConFPSSDK.xcframework"
 
   #spec.library   = "Frameworks/PallyConFPSSDK"
   # spec.libraries = "iconv", "xml2"
