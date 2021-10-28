@@ -7,20 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C28C76A5272A433B001F1DD4 /* PallyConFPSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28C76A4272A433B001F1DD4 /* PallyConFPSSDK.xcframework */; };
 		C2DF690927280FB500CA6F84 /* PallyConUtil in Resources */ = {isa = PBXBuildFile; fileRef = C2DF690727280FB500CA6F84 /* PallyConUtil */; };
 		C2DF690A27280FB500CA6F84 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = C2DF690827280FB500CA6F84 /* Views */; };
-		C2DF690D2729060B00CA6F84 /* PallyConFPSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DF690C2729060B00CA6F84 /* PallyConFPSSDK.xcframework */; };
 		E5447ABE667EE25BBFF377ED /* Pods_PodsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BF4A2858FC1112872CE6C8 /* Pods_PodsTest.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C28C76A3272A4279001F1DD4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		52BF4A2858FC1112872CE6C8 /* Pods_PodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D186A1B93DCAA06281DACFE /* Pods-PodsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsTest.release.xcconfig"; path = "Target Support Files/Pods-PodsTest/Pods-PodsTest.release.xcconfig"; sourceTree = "<group>"; };
+		C28C76A4272A433B001F1DD4 /* PallyConFPSSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PallyConFPSSDK.xcframework; sourceTree = "<group>"; };
 		C2DF68FB27280FA200CA6F84 /* PodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DF68FF27280FA200CA6F84 /* PodsTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PodsTest.docc; sourceTree = "<group>"; };
 		C2DF690727280FB500CA6F84 /* PallyConUtil */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PallyConUtil; sourceTree = "<group>"; };
 		C2DF690827280FB500CA6F84 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
-		C2DF690C2729060B00CA6F84 /* PallyConFPSSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PallyConFPSSDK.xcframework; sourceTree = "<group>"; };
 		CC0DBD1D5C30C1890F76BD86 /* Pods-PodsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsTest.debug.xcconfig"; path = "Target Support Files/Pods-PodsTest/Pods-PodsTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DF690D2729060B00CA6F84 /* PallyConFPSSDK.xcframework in Frameworks */,
+				C28C76A5272A433B001F1DD4 /* PallyConFPSSDK.xcframework in Frameworks */,
 				E5447ABE667EE25BBFF377ED /* Pods_PodsTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				52BF4A2858FC1112872CE6C8 /* Pods_PodsTest.framework */,
-				C2DF690C2729060B00CA6F84 /* PallyConFPSSDK.xcframework */,
+				C28C76A4272A433B001F1DD4 /* PallyConFPSSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,6 +118,7 @@
 				C2DF68F727280FA200CA6F84 /* Sources */,
 				C2DF68F827280FA200CA6F84 /* Frameworks */,
 				C2DF68F927280FA200CA6F84 /* Resources */,
+				C28C76A3272A4279001F1DD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,7 +176,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		2EB118998604EED882E6A1E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -177,7 +191,7 @@
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PodsTest-checkManifestLockResult.txt",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
