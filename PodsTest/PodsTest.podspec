@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Kuo0202/CocoaPodsTest.git", :tag => "#{spec.version}" }
 
-  # spec.source_files  = "PodsTest/**/*", "PodsTest/**/*.{h,m,swift}"
+  spec.source_files  = "PodsTest/*.{h,m,swift}"
   # spec.exclude_files = "PodsTest/**/*.plist"
 
   # spec.public_header_files = "Classes/**/*.h"
