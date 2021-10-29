@@ -70,7 +70,6 @@
 		C2DF68F127280FA200CA6F84 = {
 			isa = PBXGroup;
 			children = (
-				C2E78AE0272AB4F800B2CFFE /* PallyConFPSSDK.xcframework */,
 				C2DF68FD27280FA200CA6F84 /* PodsTest */,
 				C2DF68FC27280FA200CA6F84 /* Products */,
 				800BE8E13F3CCBFD249E0E20 /* Pods */,
@@ -89,6 +88,7 @@
 		C2DF68FD27280FA200CA6F84 /* PodsTest */ = {
 			isa = PBXGroup;
 			children = (
+				C2E78AE0272AB4F800B2CFFE /* PallyConFPSSDK.xcframework */,
 				C2DF690727280FB500CA6F84 /* PallyConUtil */,
 				C2DF690827280FB500CA6F84 /* Views */,
 				C2DF68FF27280FA200CA6F84 /* PodsTest.docc */,
